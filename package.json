@@ -24,3 +24,11 @@
     "node": ">=18.17.0"
   }
 }
+"pnpm": {
+    "onlyBuiltDependencies": [
+      "@firebase/util",
+      "protobufjs",
+      "puppeteer",
+      "sqlite3"
+    ]
+  }
